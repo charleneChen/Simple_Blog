@@ -1,0 +1,17 @@
+<div class="blog-header">
+	<h1 class="blog-title">Simple Blog with Padrino</h1>
+	<p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
+</div>
+
+<div class="row">
+	<div class="col-sm-12 blog-main">
+		<% @posts.each do |post| %>
+			<div class="blog-post">
+				<h2 class="blog-post-title"><%=link_to post.title, url(:posts, :show, :id => post) %></h2>
+				<p class="blog-post-media">Created by <%= post.account.name %> on 
+				<%= post.created_at.strftime("%Y-%m-%d") %></p>
+			</div>
+		<% end %>
+	</div>
+</div>
+
