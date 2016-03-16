@@ -12,12 +12,12 @@
 + markdown to html support for posts management
 
 
-## Admin Interface /admin
+## Admin Interface '/admin'
 
 __username: admin@blog.com__
 
 __password: password__
 
-## Home Page /
+## Home Page '/'
 
 You can view all posts here
