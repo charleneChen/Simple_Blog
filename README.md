@@ -14,7 +14,7 @@
 
 ## Admin Interface
 
-__username: admin__
+__username: admin@blog.com__
 
 __password: password__
 
