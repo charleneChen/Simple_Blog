@@ -1,6 +1,6 @@
 # Simple_Blog
 
-## Requirements ##
+## Requirements
 1. Ruby
 2. Padrino
 
@@ -12,9 +12,12 @@
 + markdown to html support for posts management
 
 
-## Admin Interface
+## Admin Interface /admin
 
 __username: admin@blog.com__
 
 __password: password__
 
+## Home Page /
+
+You can view all posts here
